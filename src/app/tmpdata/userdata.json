@@ -1,0 +1,22 @@
+{
+    "UsersData": [
+        {
+            "FirstName": "fname",
+            "SecondName": "sName",
+            "Mobile": "2",
+            "Password": "2",
+            "TotalPoints": "0",
+            "role": "Admin",
+            "token": "fake-jwt-token"
+        },
+        {
+            "FirstName": "user fname",
+            "SecondName": "user sName",
+            "Mobile": "1",
+            "Password": "1",
+            "TotalPoints": "0",
+            "role": "User",
+            "token": "fake-jwt-token"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+<div class="col-sm-12 rounded border border-danger" *ngFor="let match of predictableMatches" style="display: inline-flex;">
+      
+    <div class="col-sm-3">
+        {{match.MatchNo}}
+        {{match.Date}} <br/>{{match.Stadium}}
+    </div>
+    <div class="col-sm-6">
+        <div class='{{match.TeamA}}-40'></div> vs <div class='{{match.TeamB}}-40'></div>
+    </div>
+    <div class="col-sm-3">
+        <button data-target="#questions" class="btn btn-primary" data-toggle="collapse">Make Your Predictions</button>
+    </div>
+    <div id="questions" class="collapse">
+      Lorem ipsum dolor text....
+    </div>
+    <div> prediction questions </div>
+
+  </div> <!-- Prediction Questions Ends here-->

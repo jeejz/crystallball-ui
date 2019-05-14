@@ -1,0 +1,28 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to CrystalBall. Your Prediction App!
+  </h1>
+  <img width="300" alt="Angular Logo" src="/assets/images/cb.jpg">
+
+</div>
+<div class="container h-100">
+  <div class="row align-items-center h-100">
+    <div class="col-6 mx-auto">
+      <div class="jumbotron">
+        <mat-form-field>
+          <input matInput placeholder="Mobile" #Mobile required>
+        </mat-form-field>
+        <br />
+        <mat-form-field>
+          <input matInput type="Password" placeholder="Password" #Password required>
+        </mat-form-field>
+        <br />
+        <button mat-raised-button color="primary" (click)="login(Mobile.value, Password.value)">Log In</button>
+        &nbsp;&nbsp;
+        <button mat-raised-button color="primary" routerLink="/register">Register</button>
+      </div>
+    </div>
+  </div>
+</div>
+

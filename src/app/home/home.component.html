@@ -1,0 +1,103 @@
+<div class="float-right" style='width: 620px; height: 224px; background: url(../assets/images/team-captains.jpg)'>
+</div>
+<div class="jumbotron text-center grad" style="margin-bottom:0">
+  <h1>Crystall Ball</h1>
+  <p>Fun@TIAA's prediction App on ICC World Cup 2019.</p>
+</div>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+  <div class="navbar-nav">
+    <a class="nav-item nav-link" routerLink="/">Home</a>
+    <a class="nav-item nav-link" routerLink="/admin" *ngIf="isAdmin">Admin</a>
+    <a class="nav-item nav-link float-right" (click)="logout()">Logout</a>
+  </div>
+</nav>
+
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-9">
+      <h2>ICC World Cup - 2019</h2>
+
+      <!-- Prediction Questions Starts here-->
+      <div class="container">
+        <div class="row">
+          <app-match-prediction></app-match-prediction>
+
+        </div>
+      </div>
+      <div>
+        <!-- Jackpot div starts-->
+        <br>
+        <h2>Predict for the Jackpot</h2>
+        <h5>Make your predictions for the series of questions and grab the Jackpot</h5>
+        <div class="fakeimg">Fake Image</div>
+
+        <p>Get ready and predict the series of questions. Let your predictions brings you a Jackpot
+        </p>
+      </div> <!-- Jackpot div close-->
+    </div>
+    <div class="col-sm-3">
+      <h2>Hello User, Your score is 30 </h2>
+      <br>
+      <h3>Leader Board</h3>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link" href="#">User1 100</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">User2 80</a>
+        </li>
+      </ul>
+      <br>
+      <h3>Explore the Winners</h3>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Your Predictions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Daily Winners</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Footer</p>
+</div>
+<!--
+<div class="jumbotron">
+  <div>Welcome : {{currentUser.FirstName}}</div>
+  <div>Total Points : {{currentUser.TotalPoints}}</div>
+</div>
+
+
+<div class="container h-100">
+  <div class="row align-items-center h-100">
+    <div class="col-6 mx-auto">
+      <div class="jumbotron">
+        <mat-form-field>
+          <input matInput placeholder="Winning Team" #WinningTeam required>
+        </mat-form-field>
+        <br />
+        <mat-form-field>
+          <input matInput placeholder="Man Of The Match" #ManOfTheMatch required>
+        </mat-form-field>
+        <br />
+        <mat-form-field>
+          <input matInput placeholder="Toss" #Toss required>
+        </mat-form-field>
+        <br />
+        <mat-form-field>
+          <input matInput placeholder="First Bat" #FirstBat required>
+        </mat-form-field>
+        <br />
+        <button mat-raised-button color="primary"
+          (click)="save(WinningTeam.value,ManOfTheMatch.value,Toss.value,FirstBat.value)">Save</button>
+      </div>
+    </div>
+  </div>
+</div> -->

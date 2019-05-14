@@ -1,0 +1,22 @@
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  
+.match-deck{
+    background-color: #aaa;
+    display: flex;
+}
+
+.questions{
+    background-color: #8f35e3;
+}
+.grad {
+    background-image: linear-gradient(to top left, #8f35e3, #cc33ff);
+  }
+  
+.daily-match-card {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+}

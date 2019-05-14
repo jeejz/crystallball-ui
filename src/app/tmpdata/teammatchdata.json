@@ -1,0 +1,47 @@
+{
+    "Teams": {
+        "India": {
+            "TeamName": "India",
+            "TeamCaptain": "Sachin",
+            "TeamCode": "IND",
+            "Squad": [],
+            "NoOfMatches": "0",
+            "Wins": "0",
+            "Loss": "0",
+            "Draw": ""
+        },
+        "Australia": {
+            "TeamName": "Australia",
+            "TeamCaptain": "Amstrong",
+            "TeamCode": "AUS",
+            "Squad": [],
+            "NoOfMatches": "0",
+            "Wins": "0",
+            "Loss": "0",
+            "Draw": ""
+        }
+    },
+    "Matches": 
+        [
+            {
+                "MatchNo": "1",
+                "TeamA": "India",
+                "TeamB": "Australia",
+                "Stadium": "",
+                "Timing": "3.00PM",
+                "TimeZone": " IST",
+                "Date": "30/May/2019",
+                "MatchDone": "N"
+            },
+            {
+                "MatchNo": "2",
+                "TeamA": "India",
+                "TeamB": "England",
+                "Stadium": "",
+                "Timing": "3.00PM",
+                "TimeZone": " IST",
+                "Date": "08/Jun/2019",
+                "MatchDone": "N"
+            }
+        ]
+    }

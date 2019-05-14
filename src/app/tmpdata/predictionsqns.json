@@ -1,0 +1,36 @@
+{
+    "MatchPredictionsQuestions": {
+        "Q1": {
+            "Q": "Winning Team",
+            "Points": "5",
+            "Answer": ""
+        },
+        "Q2": {
+            "Q": "Team with Most Wickets",
+            "Points": "5",
+            "Answer": ""
+        },
+        "Q4": {
+            "Q": "Player with most Wickets",
+            "Points": "5",
+            "Answer": ""
+        },
+        "Q5": {
+            "Q": "Man of the match",
+            "Points": "5",
+            "Answer": ""
+        }
+    },
+    "JackpotQuestions": {
+        "JQ1": {
+            "Q": "World cup 2019 Winning Team",
+            "Points": "50",
+            "Answer": ""
+        },
+        "JQ2": {
+            "Q": "World cup 2019 Runner Up Team",
+            "Points": "25",
+            "Answer": ""
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.India-40{
+    width: 60px;
+    height: 40px;
+    background: url(./images/flags-40-sprite.png) -300px -120px no-repeat;
+}
+
+.Australia-40{
+    width: 60px;
+    height: 40px;
+    background: url(./images/flags-40-sprite.png) 0px -40px no-repeat;
+}
+
+.Srilanka-40{
+    width: 60px;
+    height: 40px;
+    background: url(./images/flags-40-sprite.png) -180px -400px no-repeat;
+}
+
+.England-40{
+    width: 60px;
+    height: 40px;
+    background: url(./images/flags-40-sprite.png) -180px -200px no-repeat;
+}

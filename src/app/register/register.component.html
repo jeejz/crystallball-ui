@@ -1,0 +1,33 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 offset-sm-3">
+        <mat-form-field>
+          <input matInput placeholder="First Name" #FirstName required>
+        </mat-form-field>
+        <br />
+        <mat-form-field>
+          <input matInput placeholder="Last Name" #SecondName required>
+        </mat-form-field>
+        <br />
+        <mat-form-field>
+          <input matInput placeholder="Password" #Password1 required type="Password">
+        </mat-form-field>
+        <br />
+        <mat-form-field>
+          <input matInput placeholder="Confirm Password" #Confpassword required type="Password">
+        </mat-form-field>
+        <br />
+        <mat-form-field>
+          <input matInput placeholder="Mobile" #Mobile1 required maxlength="10">
+        </mat-form-field>
+        <br />
+
+        <button mat-raised-button color="primary"
+          (click)="registerUser(FirstName.value,SecondName.value,Mobile1.value, Password1.value,Confpassword.value)">Register</button>
+        &nbsp;&nbsp;
+        <button mat-raised-button color="primary" type="reset">Reset</button>
+      </div>
+    </div>
+  </div>
+</div>
